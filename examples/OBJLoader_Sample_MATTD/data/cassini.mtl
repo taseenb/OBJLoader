@@ -1,0 +1,93 @@
+# Ns = Phong specular component. Ranges from 0 to 1000. (I've seen various statements about this range (see below))
+# Kd = Diffuse color weighted by the diffuse coefficient.
+# Ka = Ambient color weighted by the ambient coefficient.
+# Ks = Specular color weighted by the specular coefficient.
+# d = Dissolve factor (pseudo-transparency). Values are from 0-1. 0 is completely transparent, 1 is opaque.
+# Ni = Refraction index. Values range from 1 upwards. A value of 1 will cause no refraction. A higher value implies refraction.
+# illum = (0, 1, or 2) 0 to disable lighting, 1 for ambient & diffuse only (specular color set to black), 2 for full lighting (see below)
+# sharpness = ? (see below)
+# map_Kd = Diffuse color texture map.
+# map_Ks = Specular color texture map.
+# map_Ka = Ambient color texture map.
+# map_Bump = Bump texture map.
+# map_d = Opacity texture map.
+# refl = reflection type and filename (?)
+
+newmtl meddark
+	 Ka 0.545098 0.545098 0.545098
+	 Kd 0.545098 0.545098 0.545098
+	 Ks 1 1 1
+	 illum 2
+	 Ns 5.65685
+newmtl gold2
+	 Ka 0.901961 0.705882 0.0156863
+	 Kd 0.901961 0.705882 0.0156863
+	 Ks 1 1 1
+	 illum 2
+	 Ns 5.65685
+newmtl metallic
+	 Ka 0.694118 0.694118 0.694118
+	 Kd 0.694118 0.694118 0.694118
+	 Ks 1 1 1
+	 illum 2
+	 Ns 2
+newmtl whitedish
+	 Ka 1 1 1
+	 Kd 1 1 1
+	 Ks 1 1 1
+	 illum 2
+	 Ns 2
+newmtl vdark
+	 Ka 0.388235 0.388235 0.388235
+	 Kd 0.388235 0.388235 0.388235
+	 Ks 1 1 1
+	 illum 2
+	 Ns 5.65685
+newmtl ____default___
+	 Ka 0.878431 0.878431 0.878431
+	 Kd 0.878431 0.878431 0.878431
+	 Ks 1 1 1
+	 illum 2
+	 Ns 5.65685
+newmtl darkishred
+	 Ka 0.827451 0 0.0235294
+	 Kd 0.827451 0 0.0235294
+	 Ks 1 1 1
+	 illum 2
+	 Ns 5.65685
+newmtl material01
+	 Ka 0.827451 0.827451 0.776471
+	 Kd 0.827451 0.827451 0.776471
+	 Ks 1 1 1
+	 illum 2
+	 Ns 5.65685
+newmtl gold
+	 Ka 0.980392 0.831373 0.32549
+	 Kd 0.980392 0.831373 0.32549
+	 Ks 1 1 1
+	 illum 2
+	 Ns 2
+newmtl darkerheatshield
+	 Ka 0.756863 0.533333 0.0156863
+	 Kd 0.756863 0.533333 0.0156863
+	 Ks 1 1 1
+	 illum 2
+	 Ns 5.65685
+newmtl huygens_dark
+	 Ka 0.305882 0.305882 0.305882
+	 Kd 0.305882 0.305882 0.305882
+	 Ks 1 1 1
+	 illum 2
+	 Ns 5.65685
+newmtl heatshieldfoil
+	 Ka 0.964706 0.709804 0.117647
+	 Kd 0.964706 0.709804 0.117647
+	 Ks 1 1 1
+	 illum 2
+	 Ns 5.65685
+newmtl transparent
+	 Ka 0.737255 0.737255 0.737255
+	 Kd 0.737255 0.737255 0.737255
+	 Ks 1 1 1
+	 illum 2
+	 Ns 5.65685
