@@ -1316,6 +1316,21 @@ public class OBJModel {
 	public PVector getVertex(int i) {
 		return vertices.get(i);
 	}
+	
+	/**
+     * Returns an array of PVectors representing all the vertices of the model.
+     * It converts the vertices ArrayList to a simple array.
+     *
+     * @return PVector[] Array with all the vertices.
+     */
+    public PVector[] getVertices() {
+        int vertexCount = vertices.size();
+        PVector[] vertexArray = new PVector[vertexCount];
+        for (int i = 0; i < vertexCount; i++) {
+          vertexArray[i] = vertices.get(i);
+        }
+        return vertexArray;
+    }
 
 	/**
 	 * Returns a reference to a numbered Normal. As this is a reference to the

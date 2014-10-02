@@ -2,9 +2,9 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="libs/core.jar"/>
-	<classpathentry kind="lib" path="libs/gluegen-rt.jar"/>
-	<classpathentry kind="lib" path="libs/jogl.jar"/>
-	<classpathentry kind="lib" path="libs/opengl.jar"/>
+	<classpathentry kind="lib" path="processing1.5-jars/core.jar"/>
+	<classpathentry kind="lib" path="processing1.5-jars/gluegen-rt.jar"/>
+	<classpathentry kind="lib" path="processing1.5-jars/jogl.jar"/>
+	<classpathentry kind="lib" path="processing1.5-jars/opengl.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
