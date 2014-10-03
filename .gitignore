@@ -6,3 +6,6 @@ application.windows32
 application.windows64
 application.macosx
 distribution
+.idea
+.externalToolBuilders
+*.iml
