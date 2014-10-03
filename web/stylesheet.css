@@ -41,15 +41,13 @@ body {
 #examples,
 #demos,
 #misc {
-	width:480px;
-	float:left;
+	width:500px;
 	margin-right:24px;
 }
 
 
 #resources, #info {
-	width:320px;
-	float:left;
+	width:500px;
 }
 
 
