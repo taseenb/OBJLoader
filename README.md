@@ -34,14 +34,14 @@ By default the following locations are used for your sketchbook folder:
 
 The folder structure for library OBJ file loader should be as follows:
 
-Processing
-- libraries
-  -  OBJLoader
-    -  examples
-    -  library
-      -  OBJLoader.jar
-    -  reference
-    -  src
+- Processing
+  - libraries
+    -  OBJLoader
+      -  examples
+      -  library
+        -  OBJLoader.jar
+      -  reference
+      -  src
                       
 Some folders like "examples" or "src" might be missing. After library 
 OBJ file loader has been successfully installed, restart the Processing 
