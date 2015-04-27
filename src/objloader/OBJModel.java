@@ -31,6 +31,7 @@ import javax.media.opengl.*;
 
 /**
  * @author matt
+ * @author taseenb (modifications + compatibility with Processing 2)
  *
  */
 public class OBJModel {
